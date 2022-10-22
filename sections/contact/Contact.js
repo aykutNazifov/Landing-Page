@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ContactCard from "../../components/ContactCard/ContactCard";
+import ContactCard from "../../components/contactCard/ContactCard";
 import * as S from "./elements";
 
 const Contact = () => {
