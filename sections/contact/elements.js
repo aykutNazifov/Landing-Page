@@ -3,6 +3,11 @@ import { maxLaptop, maxMobile, maxTablet } from "../../styles/breakpoints";
 
 export const Container = styled.div`
   position: relative;
+  background: linear-gradient(
+    167deg,
+    rgba(255, 255, 255, 1) 27%,
+    rgba(110, 187, 241, 1) 100%
+  );
 `;
 export const Wrapper = styled.div`
   padding: 135px 215px 40px 215px;
