@@ -1,3 +1,4 @@
+import Image from "next/image";
 import ProblemsCard from "../../components/problemsCard/ProblemsCard";
 import * as S from "./elements";
 
@@ -61,6 +62,14 @@ const data = [
 const Problems = () => {
   return (
     <S.Container>
+      <S.HexagonBg>
+        <Image
+          src="/images/bgElements/hexagon-problems.png"
+          alt="Hexagon"
+          width={105}
+          height={181}
+        />
+      </S.HexagonBg>
       <S.Wrapper>
         <S.Title>What problems can we solve for you?</S.Title>
         <S.CardsWrapper>

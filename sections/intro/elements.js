@@ -89,12 +89,12 @@ export const LogoWrapper1 = styled.div`
   cursor: pointer;
 
   @media ${maxTablet} {
-    width: 250px;
+    width: 300px;
     height: 80px;
   }
 
-  @media ${maxTablet} {
-    width: 150px;
+  @media ${maxMobile} {
+    max-width: 200px;
     height: 60px;
   }
 `;
@@ -113,8 +113,8 @@ export const LogoWrapper2 = styled.div`
     height: 80px;
   }
 
-  @media ${maxTablet} {
-    width: 180px;
+  @media ${maxMobile} {
+    max-width: 200px;
     height: 60px;
   }
 `;

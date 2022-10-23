@@ -3,6 +3,7 @@ import { maxLaptop, maxMobile, maxTablet } from "../../styles/breakpoints";
 
 export const Container = styled.div`
   padding: 92px 90px 0px 90px;
+  position: relative;
 
   @media ${maxLaptop} {
     padding: 72px 30px 0px 30px;
@@ -46,4 +47,12 @@ export const CardsWrapper = styled.div`
   @media ${maxMobile} {
     flex-direction: column;
   }
+`;
+
+export const HexagonBg = styled.div`
+  position: absolute;
+  top: 30%;
+  right: 0;
+  width: 105px;
+  height: 180px;
 `;

@@ -10,8 +10,9 @@ export const ImageWrapper = styled.div`
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
   max-width: 480px;
 
-  @media (${maxMobile}) {
+  @media (max-width: 650px) {
     width: 100%;
+    margin: 0px auto;
   }
 `;
 
@@ -32,7 +33,7 @@ export const HexagonTextWrapper = styled.div`
   padding: 0px 40px;
   text-align: center;
 
-  @media (${maxMobile}) {
+  @media (max-width: 650px) {
     width: 100%;
     height: 280px;
     top: 80%;
@@ -50,7 +51,7 @@ export const SmallHexagon = styled.div`
   height: 126px;
   background-color: #5d85ff;
 
-  @media (${maxMobile}) {
+  @media (max-width: 650px) {
     display: none;
   }
 `;

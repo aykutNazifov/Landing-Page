@@ -12,7 +12,7 @@ export const Container = styled.div`
     padding: 51px 20px 40px 20px;
   }
 
-  @media ${maxMobile} {
+  @media (max-width: 650px) {
     margin-bottom: 180px;
   }
 `;
@@ -27,7 +27,7 @@ export const Title = styled.h1`
   margin-bottom: 74px;
   text-transform: capitalize;
 
-  @media ${maxMobile} {
+  @media (max-width: 650px) {
     max-width: 100%;
     font-size: 26px;
     line-height: 36px;
@@ -85,7 +85,7 @@ export const OptionsWrapper = styled.div`
   justify-content: space-between;
   align-items: center;
 
-  @media (${maxMobile}) {
+  @media (max-width: 650px) {
     flex-direction: column;
   }
 `;
@@ -93,7 +93,7 @@ export const OptionsWrapper = styled.div`
 export const OptionsTextWrapper = styled.div`
   width: 30%;
 
-  @media (${maxMobile}) {
+  @media (max-width: 650px) {
     width: 100%;
     margin-bottom: 30px;
   }
@@ -102,7 +102,7 @@ export const OptionsTextWrapper = styled.div`
 export const OptionsImagesWrapper = styled.div`
   width: 65%;
 
-  @media (${maxMobile}) {
+  @media (max-width: 650px) {
     width: 100%;
   }
 `;
